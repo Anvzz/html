@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+
+    <div class="mb-3">
+        <h5>Summary</h5>
+        <br>
+        <p>Company Name: {{result.name}}</p>
+        <p>Stock Symbol: {{result.symbol}}</p>
+        <p>Current Price: {{ price }}</p>
+    </div>
+
+{% endblock %}
