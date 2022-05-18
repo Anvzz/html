@@ -1,0 +1,110 @@
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.header{
+    width: 100%;
+    background-color: rgb(178, 180, 235, 0.8);
+    /* border-color: grey;
+    border-style: solid;
+    border-width: 1px; */
+    border-bottom: rbg(164, 171, 170) solid 1px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.2);
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+
+    z-index: 100;
+}
+
+.logo{
+    height: 40px;
+    width: 55px;
+    margin-left: 0;
+    position: absolute;
+    top: 10px;
+    left: 35px;
+    border-radius: 3px;
+}
+
+.name-button{
+    height: 40px;
+    background-color: rgb(178, 180, 235, 0.8);
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-weight: 500;
+    flex: 1;
+    position: absolute;
+    top: 10px;
+    border-radius: 20px;
+    border: None;
+    left: 120px;
+    font-size: 26px;
+    color: yellow;
+}
+
+.page-links{
+    position: absolute;
+    right: 15px;
+    flex: 1;
+}
+
+.homepg,
+.linkedinpg,
+.resumepg,
+.aboutpg{
+    font-family: 'Rammetto One', cursive;
+    font-size: 13px;
+    top: 20px;
+    position: relative;
+    margin-right: 12px;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(128, 128, 128, 0.3);
+    text-decoration: underline;
+}
+
+.body-img{
+    width: 100%;
+
+}
+
+.intro-box{
+    display: grid;
+    grid-template-columns: 300px;
+    row-gap: 2px;
+
+    position: absolute;
+    top: 110px;
+    left: 150px;
+    z-index: 0;
+}
+
+.introtxt{
+    font-size: 80px;
+    color: rgb(79, 176, 168);
+    font-family: ubuntu;
+}
+
+.intropara{
+    font-family: 'Rammetto One', cursive;
+    font-size: 15px;
+    color: rgb(166, 88, 184, 0.85);
+
+}
+
+.pdf-link{
+    font-family: ubuntu;
+    font-weight: 300;
+    text-decoration: underline;
+    color: blue;
+}

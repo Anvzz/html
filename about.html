@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <!-- ubuntu font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <!--font-family: 'Love Ya Like A Sister', cursive;[for name]-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+        <!--font-family: 'Rammetto One', cursive;[for texts]-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap" rel="stylesheet">
+
+<title>Linkedin Page</title>
+    </head>
+    <body>
+    
+        <div class="header">
+            <img class="logo" src="https://static.wixstatic.com/media/fb5049_a7b901e9a48f47aaaf072d580b732cb7~mv2.png/v1/fill/w_74,h_50,al_c,usm_0.66_1.00_0.01,enc_auto/computer.png">
+            <button id="but" class="name-button">Anubhav Singh</button>
+            <div class="page-links">
+                    <p class="homepg"><a href="index.html">Home</a></p>
+                    <p class="resumepg"><a href="resume.html">Resume</a></p>
+                    <p class="linkedinpg"><a href="linkedin.html">Linkedin</a></p>
+                    <p class="aboutpg"><a href="about.html">About</a></p>
+            </div>
+        </div>
+    
+        <div>
+            <img class="body-img" src='https://coolwallpapers.me/th700/5272846-building-line-skyscraper-black-and-white-architecture-looking-up-symmetrical-middle-bright-white-background-cityscape-bampw-camera-security-workplace-work-office-city-black-amp-white-construct.jpg'/>
+        </div>
+    
+        <div class="intro-box"">
+            <p class="introtxt" style="font-size: 55px!important;">About</p>
+            <p class="intropara">Hi there!<span> If you like my site, dont hesitate to reach out.</span><br><br><strong>Sayonara!</strong></p>
+        </div>
+
+
+
+        <footer class="p-5 bg-dark text-white text-center">
+            <p class="lead"><small>Copyright</small> &copy; 2022 Anubhav Singh Portfolio</p>
+        </footer>
+        <script>
+    
+            function chclr(){
+                var num = Math.floor(Math.random() * 3);
+                if (num == 0){
+                    document.querySelector(".name-button").style.color = 'violet';
+                }
+                else if (num == 1)
+                {
+                    document.querySelector(".name-button").style.color = 'green';
+                }
+                else if (num == 2)
+                {
+                    document.querySelector(".name-button").style.color = 'yellow';
+                }
+                // console.log(document.getElementById("but").style.color);
+            }
+            setInterval(chclr, 1000);
+        </script>
+    </body>
+
+</html>
